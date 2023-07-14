@@ -1,5 +1,5 @@
 $scrollbar-color: #532c89;
-$scrollbar-background-color:rgb(163, 162, 161); ;
+$scrollbar-background-color:rgba(163, 162, 161, 0.299); ;
 
 
 div::-webkit-scrollbar {
@@ -7,8 +7,8 @@ div::-webkit-scrollbar {
   }
   
   div::-webkit-scrollbar-track {
-    background: rgb(213, 213, 212);        /* color of the tracking area */
-    border-radius: 100px;
+    background: $scrollbar-background-color;        /* color of the tracking area */
+    border-radius: 50px;
   }
   
   div::-webkit-scrollbar-thumb {
