@@ -1,49 +1,67 @@
 $scrollbar-color: #532c89;
-$scrollbar-background-color:#ececec;
-
+$scrollbar-background-color: #ececec;
+$layout-breakpoint-small: 768px;
 
 div::-webkit-scrollbar {
-    width: 12px;               /* width of the entire scrollbar */
-  }
-  
-  div::-webkit-scrollbar-track {
-    background: $scrollbar-background-color;        /* color of the tracking area */
-    border-radius: 50px;
-  }
-  
-  div::-webkit-scrollbar-thumb {
-    background-color:$scrollbar-color;    /* color of the scroll thumb */
-    border-radius: 20px;       /* roundness of the scroll thumb */
-    border: 5px solid $scrollbar-background-color;  /* creates padding around scroll thumb */
-  }
+  width: 12px; /* width of the entire scrollbar */
+}
+
+div::-webkit-scrollbar-track {
+  background: $scrollbar-background-color; /* color of the tracking area */
+  border-radius: 50px;
+}
+
+div::-webkit-scrollbar-thumb {
+  background-color: $scrollbar-color; /* color of the scroll thumb */
+  border-radius: 20px; /* roundness of the scroll thumb */
+  border: 5px solid $scrollbar-background-color; /* creates padding around scroll thumb */
+}
 
 .make-scrollable {
-    overflow: auto;
-    text-align: justify;
-    scrollbar-width: thin;
-    margin: 5px;
-    padding: 5px;
-    width: 100%;
+  overflow: auto;
+  text-align: justify;
+  scrollbar-width: thin;
+  margin: 5px;
+  padding: 5px;
+  width: 100%;
 }
-// childcare-centre-fees
-#block-9e9b3510ea83d4b933d2, #block-20b36fe9e6d87c1f1407, #block-0a97b789658b7bce8676
-#block-f4f5c4c862649a6abd94, #block-414aa3a3b6086dd3e665 
-{
-    @extend .make-scrollable;
+
+#block-9e9b3510ea83d4b933d2,
+#block-20b36fe9e6d87c1f1407,
+#block-0a97b789658b7bce8676 #block-f4f5c4c862649a6abd94,
+#block-414aa3a3b6086dd3e665,
+#block-yui_3_17_2_1_1676925167812_109811,
+#block-bf4884b32e8239edb65a,
+#block-ec20d0c30e2cdb2bea60,
+#block-1e64a4e45ce6b824927c,
+#block-8bdd046d89513e8e1ee2,
+#block-11eb07ccf7eee865e328,
+#block-e5348c19a393f3130651,
+#block-9ee103dbe4196c9ad08e {
+  @extend .make-scrollable;
+}
+@media (min-width: $layout-breakpoint-small) {
+  // childcare-centre-fees
+  #block-9e9b3510ea83d4b933d2,
+  #block-20b36fe9e6d87c1f1407,
+  #block-0a97b789658b7bce8676 #block-f4f5c4c862649a6abd94,
+  #block-414aa3a3b6086dd3e665 {
     height: 278px !important;
-   
   }
 
-//   /philosophy-framework
-  #block-yui_3_17_2_1_1676925167812_109811, #block-bf4884b32e8239edb65a, #block-ec20d0c30e2cdb2bea60 {
-    @extend .make-scrollable;
+  //   /philosophy-framework
+  #block-yui_3_17_2_1_1676925167812_109811,
+  #block-bf4884b32e8239edb65a,
+  #block-ec20d0c30e2cdb2bea60 {
     height: 278px !important;
   }
 
-///outdoor-play-areas-classrooms
-#block-1e64a4e45ce6b824927c, #block-8bdd046d89513e8e1ee2, #block-11eb07ccf7eee865e328, 
-#block-e5348c19a393f3130651, #block-9ee103dbe4196c9ad08e
-{
-    @extend .make-scrollable;
+  ///outdoor-play-areas-classrooms
+  #block-1e64a4e45ce6b824927c,
+  #block-8bdd046d89513e8e1ee2,
+  #block-11eb07ccf7eee865e328,
+  #block-e5348c19a393f3130651,
+  #block-9ee103dbe4196c9ad08e {
     height: 278px !important;
+  }
 }
