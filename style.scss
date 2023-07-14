@@ -1,17 +1,19 @@
 $scrollbar-color: #532c89;
+$scrollbar-background-color:rgb(163, 162, 161); ;
+
 
 div::-webkit-scrollbar {
     width: 12px;               /* width of the entire scrollbar */
   }
   
-//   div::-webkit-scrollbar-track {
-//     background: rgb(163, 162, 161);        /* color of the tracking area */
-//   }
+  div::-webkit-scrollbar-track {
+    background: rgb(163, 162, 161);        /* color of the tracking area */
+  }
   
   div::-webkit-scrollbar-thumb {
     background-color:$scrollbar-color;    /* color of the scroll thumb */
     border-radius: 20px;       /* roundness of the scroll thumb */
-    border: 3px solid $scrollbar-color;  /* creates padding around scroll thumb */
+    border: 3px solid $scrollbar-background-color;  /* creates padding around scroll thumb */
   }
 
 .make-scrollable {
@@ -24,7 +26,7 @@ div::-webkit-scrollbar {
 }
 // childcare-centre-fees
 #block-9e9b3510ea83d4b933d2, #block-20b36fe9e6d87c1f1407, #block-0a97b789658b7bce8676
-#block-f4f5c4c862649a6abd94, #block-414aa3a3b6086dd3e665
+#block-f4f5c4c862649a6abd94, #block-414aa3a3b6086dd3e665 
 {
     @extend .make-scrollable;
     height: 278px;
