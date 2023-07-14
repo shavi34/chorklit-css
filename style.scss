@@ -7,13 +7,14 @@ div::-webkit-scrollbar {
   }
   
   div::-webkit-scrollbar-track {
-    background: rgb(163, 162, 161);        /* color of the tracking area */
+    background: rgb(213, 213, 212);        /* color of the tracking area */
+    border-radius: 100px;
   }
   
   div::-webkit-scrollbar-thumb {
     background-color:$scrollbar-color;    /* color of the scroll thumb */
     border-radius: 20px;       /* roundness of the scroll thumb */
-    border: 3px solid $scrollbar-background-color;  /* creates padding around scroll thumb */
+    border: 5px solid $scrollbar-background-color;  /* creates padding around scroll thumb */
   }
 
 .make-scrollable {
