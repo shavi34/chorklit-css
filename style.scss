@@ -1,5 +1,5 @@
 $scrollbar-color: #532c89;
-$scrollbar-background-color:rgb(185, 185, 185); ;
+$scrollbar-background-color:#ececec;
 
 
 div::-webkit-scrollbar {
@@ -30,14 +30,14 @@ div::-webkit-scrollbar {
 #block-f4f5c4c862649a6abd94, #block-414aa3a3b6086dd3e665 
 {
     @extend .make-scrollable;
-    height: 278px;
+    height: 278px !important;
    
   }
 
 //   /philosophy-framework
   #block-yui_3_17_2_1_1676925167812_109811, #block-bf4884b32e8239edb65a, #block-ec20d0c30e2cdb2bea60 {
     @extend .make-scrollable;
-    height: 278px;
+    height: 278px !important;
   }
 
 ///outdoor-play-areas-classrooms
@@ -45,5 +45,5 @@ div::-webkit-scrollbar {
 #block-e5348c19a393f3130651, #block-9ee103dbe4196c9ad08e
 {
     @extend .make-scrollable;
-    height: 278px;
+    height: 278px !important;
 }

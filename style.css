@@ -3,14 +3,14 @@ div::-webkit-scrollbar {
 }
 
 div::-webkit-scrollbar-track {
-  background: rgb(185, 185, 185); /* color of the tracking area */
+  background: #ececec; /* color of the tracking area */
   border-radius: 50px;
 }
 
 div::-webkit-scrollbar-thumb {
   background-color: #532c89; /* color of the scroll thumb */
   border-radius: 20px; /* roundness of the scroll thumb */
-  border: 5px solid rgb(185, 185, 185); /* creates padding around scroll thumb */
+  border: 5px solid #ececec; /* creates padding around scroll thumb */
 }
 
 .make-scrollable, #block-1e64a4e45ce6b824927c, #block-8bdd046d89513e8e1ee2, #block-11eb07ccf7eee865e328,
@@ -26,16 +26,16 @@ div::-webkit-scrollbar-thumb {
 
 #block-9e9b3510ea83d4b933d2, #block-20b36fe9e6d87c1f1407, #block-0a97b789658b7bce8676 #block-f4f5c4c862649a6abd94,
 #block-414aa3a3b6086dd3e665 {
-  height: 278px;
+  height: 278px !important;
 }
 
 #block-yui_3_17_2_1_1676925167812_109811, #block-bf4884b32e8239edb65a, #block-ec20d0c30e2cdb2bea60 {
-  height: 278px;
+  height: 278px !important;
 }
 
 #block-1e64a4e45ce6b824927c, #block-8bdd046d89513e8e1ee2, #block-11eb07ccf7eee865e328,
 #block-e5348c19a393f3130651, #block-9ee103dbe4196c9ad08e {
-  height: 278px;
+  height: 278px !important;
 }
 
 /*# sourceMappingURL=style.css.map */
