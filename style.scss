@@ -2,6 +2,10 @@ $scrollbar-color: #532c89;
 $scrollbar-background-color: #ececec;
 $layout-breakpoint-small: 768px;
 
+html {
+  --sqs-edit-mode-breakpoint: 749px;
+}
+
 div::-webkit-scrollbar {
   width: 12px; /* width of the entire scrollbar */
 }

@@ -1,3 +1,7 @@
+html {
+  --sqs-edit-mode-breakpoint: 749px;
+}
+
 div::-webkit-scrollbar {
   width: 12px; /* width of the entire scrollbar */
 }
